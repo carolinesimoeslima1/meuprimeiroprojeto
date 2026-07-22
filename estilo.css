@@ -40,3 +40,14 @@ p {
   font-size: 16px;
   line-height: 1.6;
 }
+.linguagens {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
