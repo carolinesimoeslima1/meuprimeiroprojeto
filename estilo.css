@@ -21,3 +21,7 @@ h1, h2, p, ul, a, img {
   margin-bottom: 20px;
   display: block;
 }
+img {
+  border: 3px solid #6a1b9a;
+  border-radius: 12px;
+}
