@@ -11,3 +11,9 @@ botao.addEventListener("click", function() {
     mensagem.textContent = "Olá, " + nome + "! Obrigada por clicar.";
   }
 });
+const idade = Number(prompt("Qual é a sua idade?"));
+if (idade < 20) {
+  alert("Você é menor de idade.");
+} else {
+  alert("Você é maior de idade.");
+}
