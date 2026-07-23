@@ -62,3 +62,16 @@ section {
   padding-bottom: 20px;
   border-bottom: 1px solid #ccc;
 }
+@media (max-width: 600px) {
+  .linguagens {
+    flex-direction: column;
+  }
+
+  body {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
