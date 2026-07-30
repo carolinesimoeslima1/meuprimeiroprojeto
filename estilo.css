@@ -182,7 +182,3 @@ transform:translateY(0);
     object-fit: cover !important;
     display: block;
     margin: 0 auto 20px;
-}
-body {
-    background: red !important;
-}
