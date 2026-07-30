@@ -5,8 +5,16 @@ body {
   margin:0;
   padding:40px;
 }
-h1 {
-  color: #6a1b9a;
+h1{
+
+color:#7b1fa2;
+
+font-size:38px;
+
+font-weight:700;
+
+margin-top:20px;
+
 }
 
 a {
@@ -132,5 +140,21 @@ to{
 opacity:1;
 transform:translateY(0);
 }
+
+}
+.perfil{
+    text-align:center;
+}
+.perfil img{
+
+    width:150px;
+
+    height:150px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid #9c27b0;
 
 }
