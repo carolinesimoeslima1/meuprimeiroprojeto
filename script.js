@@ -22,3 +22,6 @@ if (idade < 20) {
 const habilidades = ["HTML", "CSS", "Git", "JavaScript"];
 console.log(habilidades);
 console.log(habilidades[0]);
+for (let i = 0; i < habilidades.length; i++) {
+  console.log(habilidades[i]);
+}
