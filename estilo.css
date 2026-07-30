@@ -189,3 +189,25 @@ transform:translateY(0);
     line-height:1.8;
     margin-top:20px;
 }
+.contato{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+
+.contato a{
+    background:linear-gradient(135deg,#9c27b0,#673ab7);
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+
+.contato a:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(106,27,154,.3);
+}
