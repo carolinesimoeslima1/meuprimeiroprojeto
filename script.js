@@ -19,8 +19,6 @@ if (idade < 20) {
 } else {
   console.log("Você é maior de idade.");
 }
-{
 const habilidades = ["HTML", "CSS", "Git", "JavaScript"];
 console.log(habilidades);
 console.log(habilidades[0]);
-}git 
