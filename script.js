@@ -22,6 +22,11 @@ if (idade < 20) {
 const habilidades = ["HTML", "CSS", "Git", "JavaScript"];
 console.log(habilidades);
 console.log(habilidades[0]);
+const listaHabilidades = document.getElementById("listaHabilidades");
+
 for (let i = 0; i < habilidades.length; i++) {
-  console.log(habilidades[i]);
+  const card = document.createElement("div");
+  card.className = "card";
+  card.textContent = habilidades[i];
+  listaHabilidades.appendChild(card);
 }
