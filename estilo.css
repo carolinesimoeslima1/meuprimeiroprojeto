@@ -23,15 +23,6 @@ body {
 }
 
 
-.perfil img{
-    width:150px;
-    height:150px;
-    border-radius:50%;
-    object-fit:cover;
-    border:5px solid #9c27b0;
-}
-
-
 h1{
   color:#7b1fa2;
   font-size:42px;
@@ -182,12 +173,15 @@ transform:translateY(0);
     object-fit: cover !important;
     display: block;
     margin: 0 auto 20px;
+}
+
 .descricao{
     text-align:center;
     color:#555;
     font-size:14px;
     line-height:1.8;
     margin-top:20px;
+}
 }
 .contato{
     display:flex;
